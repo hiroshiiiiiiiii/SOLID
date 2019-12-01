@@ -10,19 +10,7 @@ class MovieProductionCompany
     monthly_salary * 12
   end
 
-  def kubun
-    raise '定義忘れだよーん'
-  end
-
-  def salary_text
-    raise '定義忘れだよーん'
-  end
-
   def display_detail_profile
-    raise '定義忘れだよーん'
-  end
-
-  def salary_text
     raise '定義忘れだよーん'
   end
 
@@ -155,7 +143,6 @@ class Writer < Outsourcing
     @genre = genre
   end
 
-
   def salary
     unit_price
   end
@@ -172,7 +159,6 @@ class Sales < Outsourcing
     super(name, age)
     @unit_price = unit_price
   end
-
 
   def salary
     unit_price
